@@ -9,10 +9,13 @@ const calc = (a,b,c) => {
     case '*':
       console.log(a*b);      
       return a*b
+    case '/':
+      console.log(a/b);      
+      return a/b
   
     default:
       break;
   }
 }
 
-calc(6,7,'*')
+calc(9,3,'/')

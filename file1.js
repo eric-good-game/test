@@ -2,7 +2,6 @@ const getRandomNumber = (limit) => {
   return Math.ceil(Math.random() * limit)
 }
 
-<<<<<<< HEAD
 getRandomNumber(100);
 
 const isPrimeNumber = n => {
@@ -22,6 +21,4 @@ const isPrimeNumber = n => {
 
 isPrimeNumber(2);
 isPrimeNumber(3);
-=======
 getRandomNumber(10);
->>>>>>> refs/remotes/origin/main
