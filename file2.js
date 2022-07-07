@@ -1,4 +1,4 @@
-function calc(a,b,c){
+const calc = (a,b,c) => {
   switch (c) {
     case '+':
       console.log(a+b);      
@@ -15,4 +15,4 @@ function calc(a,b,c){
   }
 }
 
-calc(2,2,'-')
+calc(6,7,'*')
